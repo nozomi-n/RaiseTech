@@ -10,3 +10,15 @@ sum = 0
         puts sum += i
     end
 
+
+#if文で[引数が0なら偽、引数が1なら真]と表示する
+puts "0か1か入力してください"
+int = gets.to_i
+
+    if int == 0
+        puts "偽"
+    elsif int == 1
+        puts "真"
+    else
+        puts "----"
+    end
