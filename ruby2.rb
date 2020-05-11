@@ -22,3 +22,18 @@ int = gets.to_i
     else
         puts "----"
     end
+
+
+#if文で[引数が0なら偽、1なら真]と表示する(メソッドあり)
+def number (int)
+    if int == 0
+        return "偽"
+    elsif int == 1
+        return "真"
+    else
+        return "----"
+    end
+end
+
+puts "0か1か入力してください"
+puts number (gets.to_i)
